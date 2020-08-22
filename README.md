@@ -1,6 +1,9 @@
-# olc2_Proyecto2_2020
-Express Generator
-https://expressjs.com/es/starter/generator.html
+# Modulos
+## Crear archivos .ko
+$ make
+## Cargar Modulo memoria
+insmod memo_201503712.ko
+$ make
 
 #Instar NodeJs y Express
 	https://www.youtube.com/watch?v=VHOd-RBj1MA&list=PLvimn1Ins-41lVr-SPWF1mdNTzog05TcA
