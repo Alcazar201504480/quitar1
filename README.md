@@ -1,9 +1,13 @@
 # Modulos
 ## Crear archivos .ko
 $ make
+## Modulo Ram 
 ## Cargar Modulo memoria
-insmod memo_201503712.ko
-$ make
+$ insmod mem_grupo1.ko
+## Ver mensajes del Modulo
+$ dmesg
+## Ver datos 
+$ cat /proc/grupo1_ram
 
 #Instar NodeJs y Express
 	https://www.youtube.com/watch?v=VHOd-RBj1MA&list=PLvimn1Ins-41lVr-SPWF1mdNTzog05TcA
