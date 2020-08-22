@@ -9,7 +9,7 @@ $ dmesg
 ### Ver datos 
 $ cat /proc/grupo1_ram
 ### Estructura Json
-{
+{ \n
 "MemInfo": {
    "RamServer": "8106756",
    "RamConsumida": "5672288",
