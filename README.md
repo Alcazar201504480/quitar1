@@ -9,13 +9,13 @@ $ dmesg
 ### Ver datos 
 $ cat /proc/grupo1_ram
 ### Estructura Json
-{ \n
-"MemInfo": {
-   "RamServer": "8106756",
-   "RamConsumida": "5672288",
-   "PorcentajeRam": "69"
-           }
-}
+	{ 
+	"MemInfo": {
+	   "RamServer": "8106756",
+	   "RamConsumida": "5672288",
+	   "PorcentajeRam": "69"
+		   }
+	}
 ### Desmontar modulo
 rmmod  mem_grupo1.ko
 
