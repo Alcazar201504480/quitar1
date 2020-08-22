@@ -2,12 +2,22 @@
 ## Crear archivos .ko
 $ make
 ## Modulo Ram 
-## Cargar Modulo memoria
+### Cargar Modulo memoria
 $ insmod mem_grupo1.ko
-## Ver mensajes del Modulo
+### Ver mensajes del Modulo
 $ dmesg
-## Ver datos 
+### Ver datos 
 $ cat /proc/grupo1_ram
+### Estructura Json
+{
+"MemInfo": {
+   "RamServer": "8106756",
+   "RamConsumida": "5672288",
+   "PorcentajeRam": "69"
+           }
+}
+### Desmontar modulo
+rmmod  mem_grupo1.ko
 
 #Instar NodeJs y Express
 	https://www.youtube.com/watch?v=VHOd-RBj1MA&list=PLvimn1Ins-41lVr-SPWF1mdNTzog05TcA
